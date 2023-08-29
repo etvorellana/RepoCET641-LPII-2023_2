@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+#Pastas de compilação
+Aula_P01-Revisao/output/*
+Aula_T03-Funcoes/output/*
+
