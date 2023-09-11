@@ -35,11 +35,20 @@ int printTriangulo_2(int n)
 
 int printTriangulo_4(int n)
 {
+    
     return 1;
 }
 
 int printTriangulo_1(int n)
 {
+    if(n < 1 || n > 20)
+        return 0;
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j <= i ; j++)
+            printf("*");
+        printf("\n");
+    }
     return 1;
 }
 
