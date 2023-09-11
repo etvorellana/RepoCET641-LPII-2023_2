@@ -27,7 +27,7 @@ int main(void)
     printf("Digite um valor inteiro que represente um período de tempo em segundos: ");
     scanf("%d", &tempo);
 
-    seg2hms(tempo); // chamada da função
+    seg2hms(65432); // chamada da função
 
     // saída de dados
     printf("%d segundos correspondem a %dh:%dm:%ds\n", horas, minutos, segundos);

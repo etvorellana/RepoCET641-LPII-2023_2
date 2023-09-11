@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#include "headers_Aula03.h"
+
+int main(void)
+{
+    srand(time(NULL));
+    double x[10];
+    geraArrayRandom(x, 10, 5, 12);
+    return 0;
+}
+
+
+void geraArrayRandom(double x[], int n, int a, int b)
+{
+    for(int i = 0 ; i < n ; i++)
+    {
+        x[i] = (double)rand() / RAND_MAX * (b - a) + a;
+    }
+    return;
+}
+
