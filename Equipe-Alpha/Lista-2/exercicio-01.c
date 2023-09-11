@@ -54,6 +54,16 @@ int printTriangulo_1(int n)
 
 int printTriangulo_3(int n)
 {
+    if(n < 1 || n > 20)
+        return 0;
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < i ; j++)
+            printf(" ");
+        for(int j = 0; j < n - i ; j++)
+            printf("*");
+        printf("\n");
+    }
     return 1;
 }
 
