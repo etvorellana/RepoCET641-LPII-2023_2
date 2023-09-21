@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "headers_Aula03.h"
+#include "headers_Aula04.h"
 
 int main(void)
 {
@@ -16,9 +16,16 @@ int main(void)
 void geraArrayRandom(double x[], int n, int a, int b)
 {
     for(int i = 0 ; i < n ; i++)
-    {
         x[i] = (double)rand() / RAND_MAX * (b - a) + a;
-    }
+    return;
+}
+
+void geraArrayRandonR(double x[], int n, int a, int b)
+{
+    if (n = 0)
+        return;
+    x[n-1] = (double)rand() / RAND_MAX * (b - a) + a;
+    geraArrayRandonR(x, n - 1, a, b);
     return;
 }
 
