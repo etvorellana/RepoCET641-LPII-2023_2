@@ -8,24 +8,33 @@ int main(void)
 {
     srand(time(NULL));
     double x[10];
+    printf("%lu\n", sizeof(x));
     geraArrayRandom(x, 10, 5, 12);
+    for(int i = 0 ; i < 10 ; i++)
+        printf("%lf ", x[i]);
+    printf("\n");
+    geraArrayRandomR(x, 10, 5, 12);
+    for(int i = 0 ; i < 10 ; i++)
+        printf("%lf ", x[i]);
+    printf("\n");
     return 0;
 }
 
 
 void geraArrayRandom(double x[], int n, int a, int b)
 {
+    printf("%lu\n", sizeof(x));
     for(int i = 0 ; i < n ; i++)
         x[i] = (double)rand() / RAND_MAX * (b - a) + a;
     return;
 }
 
-void geraArrayRandonR(double x[], int n, int a, int b)
+void geraArrayRandomR(double x[], int n, int a, int b)
 {
-    if (n = 0)
+    if (n == 0)
         return;
     x[n-1] = (double)rand() / RAND_MAX * (b - a) + a;
-    geraArrayRandonR(x, n - 1, a, b);
+    geraArrayRandomR(x, n - 1, a, b);
     return;
 }
 

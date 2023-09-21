@@ -25,3 +25,6 @@ void codificaString(char string[]);
 void codificaMsg(char string[], char msg[]);
 int tokensIguais(char nome1[], char nome2[], int N);
 
+void geraArrayRandom(double x[], int n, int a, int b);
+void geraArrayRandomR(double x[], int n, int a, int b);
+

@@ -54,7 +54,7 @@ dkms.conf
 #Pastas de compilação
 Aulas/Aula_P01-Revisao/output/*
 Aulas/Aula_T03-Funcoes/output/*
-Aulas/Aula_T04-Funcoes/output/*
+Aulas/Aula_T04-Escopo/output/*
 Aulas/Aula_T05/output/*
 Aulas/Aula_T06/output/*
 Equipe-Alpha/Lista-2/output/*
