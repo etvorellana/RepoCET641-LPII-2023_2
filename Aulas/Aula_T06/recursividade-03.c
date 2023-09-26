@@ -23,13 +23,32 @@ int main(void)
     return 0;
 }
 
-void preencher(int lista[], int n)
+void preencherR2L(int lista[], int n)
 {
     if (n == 0)
         return;
     lista[n - 1] = rand() % 500;
     preencher(lista, n - 1);
 }
+
+void preencherL2R(int lista[], int n)
+{
+    if (n == 0)
+        return;
+    lista[0] = rand() % 500;
+    preencher(&lista[1], n - 1);
+}
+
+void preencherL2RAP(int lista[], int n)
+{
+    if (n == 0)
+        return;   
+    lista[0] = rand() % 500;
+    preencher(lista + 1, n - 1);
+}
+
+
+
 
 void preencherOrdenado(int lista[], int n, int elemento)
 {

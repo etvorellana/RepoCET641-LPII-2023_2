@@ -3,6 +3,8 @@
 #include "hanoi.h"
 
 
+int cnt = 0; // Contador de movimentos
+
 int get_n(void);
 
 int main(void)
@@ -35,10 +37,11 @@ int get_n(void)
 
 void move(int n, char origem, char auxiliar, char destino)
 {
-    //printf("Mover %d discos da torre %c para a torre %c\n", n, origem, destino);
-    //printf("Utilizar a  torre %c como auxiliar\n", auxiliar);
-    if(n == 1)
-    printf("Move o disco 1 de %c para %c\n", origem, destino);
+    if(n == 1){
+        cnt++;
+        printf("Move disco %d  %d\n", cnt);
+    }
+        printf("Move o disco 1 de %c para %c\n", origem, destino);
     else
     {
         move(n - 1, origem, destino, auxiliar);
