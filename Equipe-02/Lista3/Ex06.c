@@ -15,14 +15,12 @@ número decimal imprima a sua representação binária corretamente.
 */
 
 void Dec2Bin(int a){
-    int var = a;
     if ((a / 2) == 0 ){
         printf("1");
         return;
     }
     else{
-        a = a / 2;
-        Dec2Bin(a);
+        Dec2Bin(a / 2);
         printf("%d", var % 2);
     }
 }

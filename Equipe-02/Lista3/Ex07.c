@@ -21,7 +21,6 @@ criada para calcular o MDC de x e y, e imprima o valor computado.
 */
 
 int mdccalc(int x, int y){
-    printf("%d, %d\n", x, y);
     /*if (x == y){
         return x;
     } else */if (x > y){
