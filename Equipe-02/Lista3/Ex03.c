@@ -24,7 +24,7 @@ void contaCaracteres(char str[], int con[]){
 
 int main(void){
     char str[] = "Hello word Im linux";
-    int con[27] = {0};
+    int con[26] = {0};
 
     printf("String: %s\n\n", str);
 
