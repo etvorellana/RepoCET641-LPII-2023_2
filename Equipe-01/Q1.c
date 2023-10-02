@@ -28,7 +28,7 @@ void apagaCaractere(char ch, char str[]){
 
   for(i = 0; str[i] != '\0'; i++){ // "i" percorre a string 
     if(str[i] != ch){
-      str[j] = str[i]; // "j" guarda os caracteres que não precisam ser removidos teste
+      str[j] = str[i]; // "j" guarda os caracteres que não precisam ser removidos
       j++; 
     }
   }
