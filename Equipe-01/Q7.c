@@ -9,12 +9,13 @@ int main(void) {
   scanf("%d",&a);
   printf("Digite o valor para b: ");
   scanf("%d",&b);
-  printf("O MDC de %d e %d é %d\n", a, b, MDC(a, b));
+  if(MDC(a,b) > 0)
+    printf("O MDC de %d e %d é %d\n", a, b, MDC(a, b));
   return 0;
 }
 int MDC (int x, int y){
   if(x - y >= x) 
-    exit(1);
+    return 0;
   if (x == y)
      return x;
   if(y > x)
