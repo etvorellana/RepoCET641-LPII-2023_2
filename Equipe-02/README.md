@@ -1,6 +1,6 @@
 # Equipe 02
 
-## Integrantes:
+Integrantes:
 
 * Ana Luiza Oliveira de Freitas
 * Gabriel Magalhães de Oliveira Garrido
