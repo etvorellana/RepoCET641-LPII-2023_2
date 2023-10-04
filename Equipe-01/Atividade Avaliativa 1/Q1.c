@@ -2,7 +2,6 @@
 #include <ctype.h>
 
 void apagaCaractere(char ch, char str[]);
-void apagaCaractereAlt(char ch, char str[]);
 
 int main(void){
     char string1[100], ch;
@@ -15,9 +14,6 @@ int main(void){
 
     apagaCaractere(ch, string1);
 
-    // Versão alternativa que apaga indiscriminadamente maiúsculas e minúsculas.
-    //apagaCaractereAlt(ch, string1);
-    
     printf("%s", string1);
 
     return 0;
@@ -35,14 +31,3 @@ void apagaCaractere(char ch, char str[]){
   str[j] = '\0'; // indica o final da string, agora sem o caractere "ch"
 }
 
-void apagaCaractereAlt(char ch, char str[]){
-  int i, j = 0;
-
-  for(i = 0; str[i] != '\0'; i++){
-    if(tolower(str[i]) != tolower(ch)){
-      str[j] = str[i]; 
-      j++; 
-    }
-  }
-  str[j] = '\0'; 
-}

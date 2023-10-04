@@ -21,7 +21,6 @@ int main() {
 
 int pot(int x, int n) {
   
-    if(n<0) exit(1);
     if (n == 0) {
         return 1;
     }
