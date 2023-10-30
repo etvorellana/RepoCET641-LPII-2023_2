@@ -53,14 +53,20 @@ dkms.conf
 
 #Pastas de compilação
 Aulas/Aula_P01-Revisao/output/*
+Aulas/Aula_P02-Funcoes/output/*
+Aulas/Aula_P03/output/*
 Aulas/Aula_T03-Funcoes/output/*
 Aulas/Aula_T04-Escopo/output/*
 Aulas/Aula_T05/output/*
 Aulas/Aula_T06/output/*
+Aulas/Aula_T07/output/*
+Aulas/Aula_T08/output/*
+Aulas/Aula_T09/output/*
+PAAE/*
 Equipe-Alpha/Lista-2/output/*
 
 #Pasta do VSCode
 .vscode/*
-
+.DS_Store
 
 
