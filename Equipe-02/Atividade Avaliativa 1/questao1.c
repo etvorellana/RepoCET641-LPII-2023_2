@@ -2,6 +2,8 @@
 (void apagaCaractere(char ch, char str[])), e apague todas
  as ocorrências desse caractere na string. */
 
+ /*teste*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
