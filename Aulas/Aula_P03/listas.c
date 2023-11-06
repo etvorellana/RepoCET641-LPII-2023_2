@@ -83,9 +83,9 @@ void printLista(Lista *lista)
     Função: removerNoInicio
     Objetivo: Remover um nó do início da lista
     Parâmetros: Lista *lista - ponteiro para a lista
-    Retorno: int - 1 se conseguiu remover o nó, 0 caso contrário
+    Retorno: Retorna o livro removido
 */
-int removerNoInicio(Lista *lista)
+Livro removerNoInicio(Lista *lista)
 {
     //...
 }
@@ -94,9 +94,9 @@ int removerNoInicio(Lista *lista)
     Função: removerNoFinal
     Objetivo: Remover um nó do final da lista
     Parâmetros: Lista *lista - ponteiro para a lista
-    Retorno: int - 1 se conseguiu remover o nó, 0 caso contrário
+    Retorno: Retorna o livro removido
 */
-int removerNoFinal(Lista *lista)
+Livro removerNoFinal(Lista *lista)
 {
     //...
 }
@@ -106,9 +106,9 @@ int removerNoFinal(Lista *lista)
     Objetivo: Remover um nó do meio da lista
     Parâmetros: Lista *lista - ponteiro para a lista
                 int pos - posição onde o nó será removido
-    Retorno: int - 1 se conseguiu remover o nó, 0 caso contrário
+    Retorno: Retorna o livro removido
 */
-int removerNoMeio(Lista *lista, int pos)
+Livro removerNoMeio(Lista *lista, int pos)
 {
     //...
 }
