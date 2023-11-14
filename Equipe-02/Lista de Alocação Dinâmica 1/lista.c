@@ -114,11 +114,11 @@ int adicionarNoMeio(Lista *lista, Livro livro, int pos)
 void printLista(Lista *lista)
 {
   No *aux = lista->inicio;
-  while(aux != NULL)
+  while(aux != NULL){
     printf("%s ", aux->info.titulo);
   aux = aux->prox;
   printf("\n");
-    
+  }
 }
 
 /*
