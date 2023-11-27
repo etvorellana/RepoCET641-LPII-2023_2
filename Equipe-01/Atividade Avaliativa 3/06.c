@@ -10,7 +10,7 @@ int main(void){
 
 
   if(arq){
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < 10; i++){
       printf("\n -- Cadastro do %dº aluno ---\n\n", i+1);
       printf("Nome: ");
       fgets(nome, 50 , stdin);
