@@ -18,6 +18,7 @@ int main(void){
       scanf("%f", &nota1);
       printf("Nota 2: ");
       scanf("%f", &nota2);
+      getchar();
       media = (nota1 + nota2) / 2;
       fprintf(arq, "Nome: %s", nome);
       fprintf(arq, "Nota 1: %.2f\n", nota1);
